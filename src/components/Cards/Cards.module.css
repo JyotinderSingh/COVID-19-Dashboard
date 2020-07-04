@@ -5,21 +5,21 @@
 .card {
   margin: 0 2% !important;
 
-  /* background-color: rgb(68, 68, 87) !important;
+  background-color: #3f4957 !important;
   border-radius: 25px !important;
-  color: rgb(247, 247, 247) !important; */
+  color: rgb(247, 247, 247) !important;
 }
 
 .infected {
-  border-bottom: 10px solid rgba(45, 32, 221, 0.5);
+  border-bottom: 10px solid hsl(209, 68%, 70%);
 }
 
 .recovered {
-  border-bottom: 10px solid rgba(10, 194, 10, 0.5);
+  border-bottom: 10px solid rgb(126, 206, 126);
 }
 
 .deaths {
-  border-bottom: 10px solid rgba(255, 44, 44, 0.5);
+  border-bottom: 10px solid rgb(231, 104, 104);
 }
 
 @media (max-width: 770px) {

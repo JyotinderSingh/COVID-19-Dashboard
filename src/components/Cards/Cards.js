@@ -20,10 +20,10 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={cx(styles.card, styles.infected)}
         >
           <CardContent>
-            <Typography color="textSecondary" gutterBottom>
+            <Typography style={{color: 'rgb(145, 226, 255)', fontSize: '1.1em'}} gutterBottom>
               Infected
             </Typography>
-            <Typography variant="h5">
+            <Typography variant="h4">
               <CountUp
                 start={0}
                 end={confirmed.value}
@@ -31,7 +31,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 separator=","
               />
             </Typography>
-            <Typography color="textSecondary">
+            <Typography style={{color: 'rgba(255, 255, 255, 0.7)', marginTop: '15px'}}>
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">
@@ -48,10 +48,10 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={cx(styles.card, styles.recovered)}
         >
           <CardContent>
-            <Typography color="textSecondary" gutterBottom>
+            <Typography style={{color: 'rgb(194, 255, 219)', fontSize: '1.1em'}} gutterBottom>
               Recovered
             </Typography>
-            <Typography variant="h5">
+            <Typography variant="h4">
               <CountUp
                 start={0}
                 end={recovered.value}
@@ -59,7 +59,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 separator=","
               />
             </Typography>
-            <Typography color="textSecondary">
+            <Typography style={{color: 'rgba(255, 255, 255, 0.7)', marginTop: '15px'}}>
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">
@@ -76,10 +76,10 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={cx(styles.card, styles.deaths)}
         >
           <CardContent>
-            <Typography color="textSecondary" gutterBottom>
+            <Typography style={{color: 'rgb(255, 120, 120)', fontSize: '1.1em'}} gutterBottom>
               Deaths
             </Typography>
-            <Typography variant="h5">
+            <Typography variant="h4">
               <CountUp
                 start={0}
                 end={deaths.value}
@@ -87,7 +87,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 separator=","
               />
             </Typography>
-            <Typography color="textSecondary">
+            <Typography style={{color: 'rgba(255, 255, 255, 0.7)', marginTop: '15px'}}>
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">
