@@ -1,5 +1,5 @@
 # COVID-19 Dashboard
-## A React app, built to visualize global and country COVID-19 data, in a digestable and easy to understand format.
+## A React app, built to visualize global and country wise COVID-19 data, in a digestable and easy to understand format.
 
 Thanks to [Mathdroid's amazing API](https://github.com/mathdroid/covid-19-api) for all the data!
 
