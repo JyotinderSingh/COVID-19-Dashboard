@@ -4,6 +4,10 @@
 
 .card {
   margin: 0 2% !important;
+
+  /* background-color: rgb(68, 68, 87) !important;
+  border-radius: 25px !important;
+  color: rgb(247, 247, 247) !important; */
 }
 
 .infected {
